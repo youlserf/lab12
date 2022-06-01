@@ -6,7 +6,7 @@ class PrestamoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Prestamo
         fields = ['id', 'usuario', 'libro', 'f_prestamo', 'f_devolucion']
-
+""" 
 class InnerJoinSerializer(serializers.ModelSerializer):
     class Meta:
         model = Prestamo
@@ -20,4 +20,4 @@ class UsuarioSerializer(serializers.ModelSerializer):
 class LibroSerializer(serializers.ModelSerializer):
     class Meta:
         model = Usuario
-        fields = ['nombre']
+        fields = ['nombre'] """
